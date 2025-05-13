@@ -83,7 +83,7 @@ export default function MiniApp() {
   }
 
   return (
-    <div className="w-[400px] mx-auto py-2 px-2 space-y-4">
+    <div className="w-[400px] mx-auto py-2 px-2 space-y-4 bg-[url('/jd_chipmunk.jpg')] bg-cover bg-center">
       <ExampleCard />
       <PaymentComponent />
       <FileUploadCard />
